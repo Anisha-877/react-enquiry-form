@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.form-control{
+  border: 1.3px solid #3f4b63 !important;  
+}
+.form-label{
+  text-align: left;
+}
+
+
+
+
+

@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+//import Home from './Pages/Home';
+//import About from './Pages/About';
+//import Course from './Pages/Course';
+//import Blog from './Pages/Blog';
+//import {createBrowserRouter,RouterProvider} from "react-router-dom";
+//we have to write npm i react-router-dom
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
